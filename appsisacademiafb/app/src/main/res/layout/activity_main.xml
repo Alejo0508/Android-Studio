@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuarios"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etuserr"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textEmailAddress"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etnamer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etpasswordr"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etphoner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btguardarr"
+            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:layout_marginRight="5dp"
+            android:text="Guardar"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/btbuscarr"
+            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:text="Buscar"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/bteditarr"
+            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:text="Editar"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/bteliminarr"
+            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:text="Eliminar"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/btlistarr"
+            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:text="Listar"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

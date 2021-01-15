@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.endulsar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="EndulSar"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Endulsar">
+        <activity android:name=".pedidoCupcakes"></activity>
+        <activity android:name=".listar_minicake" />
+        <activity android:name=".listarTortica" />
+        <activity android:name=".listar_minipersonal" />
+        <activity android:name=".listar_cupcakes" />
+        <activity android:name=".pedido" />
+        <activity android:name=".logueado" />
+        <activity android:name=".registrou" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

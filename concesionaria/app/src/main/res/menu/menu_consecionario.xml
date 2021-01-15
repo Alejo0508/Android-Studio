@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuagregar"
+        android:title="Agregar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_save_24"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menulistar"
+        android:title="listar"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menuactualizar"
+        android:title="actualizar"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menubuscar"
+        android:title="buscar"
+        android:icon="@drawable/ic_baseline_find_in_page_24"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menueliminar"
+        android:title="eliminar"
+        >
+    </item>
+
+</menu>

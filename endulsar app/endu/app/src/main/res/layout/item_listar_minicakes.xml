@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fefce0">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cwMinicake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="2dp"
+        android:elevation="2dp"
+        app:cardBackgroundColor="#fefce0"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/etimagenminicake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginTop="7dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/tvnombreminicake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre: "
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#785616"
+                        />
+                    <TextView
+                        android:id="@+id/tvpreciominicake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Precio: "
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#785616"/>
+
+                    <Button
+                        android:id="@+id/btnpedirminicake"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="Pedir."
+                        android:backgroundTint="#f4eb49"
+                        android:textColor="#785616"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

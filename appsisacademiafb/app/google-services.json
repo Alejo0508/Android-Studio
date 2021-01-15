@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "824055016833",
+    "firebase_url": "https://sistemacademia-b66f8.firebaseio.com",
+    "project_id": "sistemacademia-b66f8",
+    "storage_bucket": "sistemacademia-b66f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824055016833:android:a3cc128e916dc0805bcc80",
+        "android_client_info": {
+          "package_name": "com.example.appsisacademiafb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824055016833-b5ikj6egfgps7rbtt2se08dv9b88bin7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8qjCJJS274OSqGb3kyLWsAh65lZlbfRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824055016833-b5ikj6egfgps7rbtt2se08dv9b88bin7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "341510983706",
+    "firebase_url": "https://transaccion-1c08a.firebaseio.com",
+    "project_id": "transaccion-1c08a",
+    "storage_bucket": "transaccion-1c08a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341510983706:android:7919e6ae706336db4a01a3",
+        "android_client_info": {
+          "package_name": "com.example.transaccionfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341510983706-ib2gev8ueies4ni7ql9ma1rehrr69j2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCytSokUeWSMQwf8Spto2WtZ6xhBMQwrX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341510983706-ib2gev8ueies4ni7ql9ma1rehrr69j2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

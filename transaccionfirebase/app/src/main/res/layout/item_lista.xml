@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#616161">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="2dp"
+        android:elevation="2dp"
+        app:cardBackgroundColor="#616161"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#616161">
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:textColor="#424242"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cuenta de origen: "
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ff9800"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cuenta de destino: "
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ff9800"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hora: "
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ff9800"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fecha: "
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ff9800"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Valor: "
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ff9800"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#616161">
+
+
+                <TextView
+                    android:id="@+id/etnrocuentaorigentrans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffb74d"
+                    android:text="cuenta de origen: " />
+
+                <TextView
+                    android:id="@+id/etnrocuentadestinotrans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffb74d"
+                    android:text="cuenta de destino: " />
+
+                <TextView
+                    android:id="@+id/etnhoratrans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffb74d"
+                    android:text="hora: " />
+
+                <TextView
+                    android:id="@+id/etnfechatrans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffb74d"
+                    android:text="fecha: " />
+
+                <TextView
+                    android:id="@+id/etnvalortrans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffb74d"
+                    android:text="Valor: " />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

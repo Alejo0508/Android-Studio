@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "71277331060",
+    "project_id": "endulsar-525b6",
+    "storage_bucket": "endulsar-525b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71277331060:android:c4a19d46b6ea553e988721",
+        "android_client_info": {
+          "package_name": "com.example.endulsar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71277331060-gshm767ft791koi7b4qd8ds1p2h7g54c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeDQNAL_X6IdXTPrPu99LWrynHu7-wF_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71277331060-gshm767ft791koi7b4qd8ds1p2h7g54c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

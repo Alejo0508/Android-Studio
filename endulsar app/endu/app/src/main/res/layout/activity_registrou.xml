@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrou"
+    android:orientation="vertical"
+    android:background="#fefce0">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="36dp"
+
+        android:text="Registro"
+        android:textColor="#785616"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="22dp"
+            android:inputType="text"
+            android:textColor="#785616"/>
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:hint="Ingresa tu Nombre"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contraseña"
+            android:textSize="22dp"
+            android:inputType="text"
+            android:textColor="#785616"/>
+        <EditText
+            android:id="@+id/etClave"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:hint="Contraseña"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="22dp"
+            android:textColor="#785616"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:hint="Ingresa tu email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección"
+            android:inputType="text"
+            android:textSize="22dp"
+            android:textColor="#785616"/>
+        <EditText
+            android:id="@+id/etDireccion"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:hint="Dirección"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celular"
+            android:inputType="text"
+            android:textSize="22dp"
+            android:textColor="#785616"/>
+        <EditText
+            android:id="@+id/etCelular"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:hint="Ingresa tu numero de cel"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/cbTerminos"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:text="Acepto"
+            android:textSize="12dp"
+            android:textColor="#785616"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text=" términos de servicio y políticas de Privacidad"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:textColor="#785616"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:backgroundTint=" #f4eb49"
+        android:textColor="#785616"/>
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Tienes una cuenta?"/>
+        <TextView
+            android:id="@+id/tvLinkRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresa Aquí"
+            android:textColor="#785616"
+            android:textFontWeight="28"/>
+    </LinearLayout>
+
+</LinearLayout>

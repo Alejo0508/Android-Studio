@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#fefce0"
+
+    >
+
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_launcher_foreground" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingreso"
+        android:textColor="#785616"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="¡Hola! un gusto verte de nuevo"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#785616"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etcorreol"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Ejemplo@gmail.com"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="#785616"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etcontraseñal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:inputType="numberPassword"
+        />
+    <Button
+        android:id="@+id/btniniciar"
+        android:layout_marginTop="35dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion."
+        android:backgroundTint="#f4eb49"
+        android:textColor="#785616"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="¿Olvidaste tu contraseña?"/>
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:id="@+id/etregistrarl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate"
+        android:textColor="#785616"/>
+
+</LinearLayout>
+</LinearLayout>
